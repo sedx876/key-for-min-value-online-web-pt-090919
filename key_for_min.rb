@@ -1,10 +1,8 @@
 # prereqs: iterators, hashes, conditional logic
 # Given a hash with numeric values, return the key for the smallest value
 
-ikea = {:chair => 25, :table => 85, :mattress => 450}
+pet_store = {:dog => 10, :cat => 20, :turtle => 30}
 
-def key_for_min_value(ikea) 
- ikea.collect do |key, vaule|
-   puts key.min 
-end
+def key_for_min_value(pet_store) 
+ 
 end
